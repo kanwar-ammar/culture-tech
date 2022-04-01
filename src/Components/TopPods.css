@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.topPods{
+    background-color: #1B1E23;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.cardConf{
+    width:250;
+    height:450;
+     display:'inline-block';
+    border-radius:'15px';
+    background-color:"black";
+}
+
+.topPodsImage{
+    padding: 20px;
+    height: 170px;
+    width:190px;
+    position: relative;
+      top: 0;
+      left: 0;
+}
+
+.playButton{
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    width: 50px;
+    background-color:white;
+    border-radius:20%;
+    text-align: center;
+    margin: auto;
+    padding: 9px ;
+}
+
+.title{
+    color:white;
+}
+
+.author{
+    color:rgb(134, 134, 134);
+    
+}
+
+.playzy{
+    width: 150px;
+    background-color:rgb(248, 245, 245); 
+    text-align: center;
+    margin: auto;
+    border-radius:30px;
+    height: 40px;
+    display: inline-block;
+}
+
+.modalB{
+    margin-top:50px;
+}
+
+
+
+.resFrame{
+    width: 500;
+    height:250;
+    border:none;
+}
+
+@media (max-width: 1200px) {
+    .resCard{
+        display: inline-block;
+    }
+    .resFrame{
+        width: auto;
+    }
+}
