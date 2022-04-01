@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100;200;300;400&family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.ContListenMain{
+    background-color: #1B1E23;
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contContainer{
+    border:0.5px Solid white;
+     margin: 20px;
+    border-radius:10px;
+    padding: 20px;
+}
+
+.contCard{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    
+    
+}
+
+.resCard{
+    border-radius: 20px;
+    display: flex;
+     margin: 30px ;
+    background-color: black ; 
+
+}
+
+@media (max-width: 1200px) {
+    .resCard{
+        display: inline-block;
+    }
+    .resFrame{
+        width: auto;
+    }
+}
+
+.contImg{
+    align-items: left;
+    height: 100px;
+    width:100px;
+    display:inline-block;
+}
+
+.cardContent{
+    width:100%;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.cardButtons{
+    float: right;
+    
+}
+
+.ContListenTitle{
+    color: rgb(248, 200, 109);
+}
+
+.playssButton{
+    background-color:white;
+    text-align: center;
+    border-radius:20%;
+   
+    /* padding:6px 8px; */
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    
+}
+
+.addPlaylist{
+    background-color:white;
+    text-align: center;
+    border-radius:20%;
+
+    height: 40px;
+    width: 40px;
+    /* padding:8px 10px; */
+    display: inline-block;
+    
+}

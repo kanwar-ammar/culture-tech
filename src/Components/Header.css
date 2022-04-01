@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100;200;300;400&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'League Spartan', sans-serif;
+}
+
+.headerimg{
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 30%;
+   
+
+}
+
+header{
+transition: all 0.3s ease-out;
+}
+
+.myheader{
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    /* color: rgb(248, 177, 46); */
+    color: white;
+  }
+
+  @keyframes example {
+    0%   {opacity:10%;}
+    10%   {opacity:15%;}
+    20%   {opacity:20%;}
+    30%   {opacity:30%;}
+    40%  {opacity:40%;}
+    50%  {opacity:50%;}
+    60%  {opacity:60%;}
+    70% {opacity:70%;}
+    80% {opacity:80%;}
+    90% {opacity:90%;}
+    100% {opacity:100%;}
+  }
+
+  .centered {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 100%;
+    animation-name: example;
+    animation-duration: 1.5s;
+  }
+
